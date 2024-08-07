@@ -4,3 +4,4 @@ pinecone-client
 langchain==0.0.3
 flask
 pypdf
+langchain-pinecone==0.0.3
