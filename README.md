@@ -1,7 +1,7 @@
 # MNNIT-Chatbot
 
 ```bash
-conda create -mnnitchatbot python=3.8 -y
+conda create -n mnnitchatbot python=3.8 -y
 ```
 
 ```bash
