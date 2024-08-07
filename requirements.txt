@@ -1,8 +1,12 @@
 ctransformers==0.2.5
 sentence-transformers==2.2.2
 pinecone-client
-langchain==0.0.225
+langchain-community
+faiss-cpu
+langchain==0.2.12
 flask
+langchainhub
 pypdf
 langchain-pinecone==0.0.3
+langchain-huggingface
 pinecone-client[grpc]
