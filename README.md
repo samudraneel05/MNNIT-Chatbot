@@ -62,7 +62,7 @@ The **MNNIT Chatbot** is a conversational AI system designed to provide accurate
    ```bash
    git clone https://github.com/samudraneel05/MNNIT-Chatbot.git
    cd MNNIT-Chatbot
-
+2. Run the following commands one by one:
 ```bash
 conda create -n mnnitchatbot python=3.8 -y
 ```
