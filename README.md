@@ -18,7 +18,7 @@ The **MNNIT Chatbot** is a conversational AI system designed to provide accurate
 ---
 
 ## Process Diagram
-![Process Diagram](MNNIT Chatbot.jpeg)
+![Process Diagram](https://github.com/samudraneel05/MNNIT-Chatbot/blob/main/MNNIT%20Chatbot.jpeg)
 
 ---
 
