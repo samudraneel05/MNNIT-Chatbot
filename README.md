@@ -8,7 +8,7 @@ The **MNNIT Chatbot** is a conversational AI system designed to provide accurate
 
 ## Key Features
 
-- **Hybrid Query Mechanism**: Queries first interact with a cloud-based AI model (OpenAI GPT-4/Omni API). If the response is unsatisfactory, the system falls back to a local Llama 2-7B model using a RAG mechanism.
+- **Hybrid Query Mechanism**: Queries first interact with a cloud-based AI model (OpenAI GPT-4-o-mini API). If the response is unsatisfactory, the system falls back to a local Llama 2-7B model using a RAG mechanism.
 - **PDF Integration**: Extracts, chunks, and embeds information from two provided MNNIT PDFs.
 - **Pinecone Vector Database**: Stores embeddings for efficient retrieval during query processing.
 - **LangChain Integration**: Builds robust prompt templates and retrieval-based question-answering (QA) workflows.
@@ -29,7 +29,7 @@ The **MNNIT Chatbot** is a conversational AI system designed to provide accurate
    - Pinecone enables efficient similarity searches to fetch the most relevant chunks during queries.
 
 3. **Query Processing**:
-   - User queries are first sent to a cloud-based AI model (e.g., GPT-4/Omni API).
+   - User queries are first sent to a cloud-based AI model (e.g., GPT-4-o-mini API).
    - If the response quality is deemed unsatisfactory, the fallback RAG mechanism is activated.
    - The fallback mechanism performs:
      - **Contextual Retrieval**: Relevant information is retrieved from Pinecone.
@@ -49,7 +49,7 @@ The **MNNIT Chatbot** is a conversational AI system designed to provide accurate
 
 - Python 3.8
 - Conda (for environment management)
-- Access to APIs (OpenAI GPT-4/Omni)
+- Access to APIs (OpenAI GPT-4-o-mini)
 - Pre-downloaded **Llama 2-7B Model**: 
   - File: `llama-2-7b-chat.ggmlv3.q4_0.bin`
   - [Download Link](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
