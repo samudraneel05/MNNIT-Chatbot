@@ -17,6 +17,11 @@ The **MNNIT Chatbot** is a conversational AI system designed to provide accurate
 
 ---
 
+## Process Diagram
+![Process Diagram](MNNIT Chatbot.jpeg)
+
+---
+
 ## Technical Workflow
 
 1. **PDF Processing**:
